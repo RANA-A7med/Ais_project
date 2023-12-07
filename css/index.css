@@ -1,0 +1,442 @@
+body{
+	background:#efe4dc;
+}
+
+/*header.m{
+	background: red;
+	position: fixed;
+}*/
+
+
+header#slide{
+background: url("../images/Main-home-img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;	
+	animation: slider 10s infinite;
+
+	
+}
+.container-fluid{
+	overflow: hidden;
+}
+@keyframes slider{
+	0%{
+		background: url("../images/Main-home-img.jpg");
+		height: 800px;
+		background-size: cover;
+	}
+
+	50%{
+		background: url("../images/main-home-rev-img-2.jpg");
+		height: 800px;
+		background-size: cover;
+	}
+
+	100%{
+		background: url("../images/h1-rev-img1.jpg");
+		height: 800px;
+		background-size: cover;
+	}
+}
+
+						/*End anmtin*/
+/*navbar*/
+
+.nav-item{
+ padding: 4% 3%;
+}
+.nav-link{
+letter-spacing: 3px;
+    color: white;
+        font-weight: 500;
+}
+.nav-link:hover{
+	border-bottom: 2px solid white;
+	transition: 1s all;
+	color: white;
+}
+
+/*End navbar*/
+.essam img{
+	    width: 61%;
+    margin-left: 18%;
+   
+}
+.essam2{
+	display: none;
+	margin-top: 3%;
+}
+
+
+
+
+						/*iconbar*/
+.iconbar{
+	    font-size: 40px;
+    background: black;
+    color: white;
+    padding: 0% 21%;
+    margin-top: 10%;
+    width: 82%;
+    height: 65px;
+    background-attachment: fixed;
+}
+
+.iconat{
+	margin-top: 2%;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.fa-bag-shopping{
+	margin-left: 1%;
+}
+.fa-magnifying-glass{
+	margin-left: 4%;
+}
+
+.offcanvas{
+	background: black;
+	color: white;
+}
+.offcanvas img{
+	    width: 47%;
+    margin-left: 27%;
+}
+
+.offcanvas-body p{
+	    margin-bottom: 35%;
+    font-size: 18px;
+    margin-top: 13%;
+    text-align: center;
+     opacity: 60%;
+}
+
+.offcanvas-body h5{
+	    font-size: 39px;
+    text-align: center;
+    margin-bottom: 20%;
+    opacity: 60%;
+}
+
+.btn-close button{
+	color: white;
+}
+
+
+
+
+
+
+
+				/*categories*/
+.SUMMER{
+	 padding: 4% 5%;
+}
+
+.SUMMER h6{
+	opacity: 50%;
+	letter-spacing: 3px;
+}
+.SUMMER h1{
+font-family: sans-serif;
+font-size: 52px;
+}
+.SUMMER p{
+ font-size: 22px;
+ font-family: system-ui;
+}
+.categories{
+	margin-top: 10%;
+	margin-bottom: 45%;
+}
+.categories img{
+	width: 100%;
+}
+.categories img:hover{
+	width: 96%;
+	transition: 1s all;
+}
+
+.cat{
+	margin-top: 11%;
+}
+
+.categories h1{
+	       margin-top: -79%;
+    padding: 7% 34%;
+    color: white;
+    font-size: 43px;
+    font-family: inherit;
+}
+
+					/*End categories*/
+/*-------------SLEDER---------------*/
+.slider{
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+.carousel-inner{
+	padding: 5%;
+}
+.caption-img{
+	    text-align: center;
+}
+.caption-img h6{
+	letter-spacing: 5px;
+	    opacity: 50%;
+}
+.carousel-control-next,.carousel-control-prev i{
+	font-size: 42px;
+	color: #00000099;
+
+
+}
+
+@media(min-width:500px) and (max-width:780px){
+	.carousel-control-next,.carousel-control-prev i{
+	display: none;
+
+
+}
+
+.carousel-inner{
+	padding: 12%;
+}
+
+
+
+}
+
+
+/*--------------END SLIDER------------*/
+/*model*/
+.model{
+margin-bottom: 31%;
+    margin-top: 10%;
+}
+.model img{
+	width: 119%;
+    
+}
+.model img:hover{
+	width: 117%;
+	transition: 1s all;
+}
+
+.model h1{
+	margin-top: -46%;
+   padding: 16% 5%;
+    color: white;
+    letter-spacing: 3px;
+
+}
+
+.model h6{
+	    margin-top: -19%;
+    color: white;
+    padding: 2% 7%;
+    letter-spacing: 4px;
+}
+
+
+/*End model*/
+
+
+
+
+
+/*iconat*/
+.icon{
+	text-align: center;
+	margin-top: 5%;
+    margin-bottom: 5%;
+}
+.icon h4{
+	padding: 6% 4%;
+	opacity: 51%;
+}
+
+/*end iconat*/
+
+/*				For shopaholics*/
+.forshoing h1{
+    font-size: 40px;
+    font-family: serif;
+       padding: 1% 5%;
+}
+.forshoing h4{
+	    padding: 2% 4%;
+    font-family: emoji;
+    color: #6a5d5d;
+        font-size: 16px;
+    letter-spacing: 5px;
+
+}
+.forshoing a{
+	color: black;
+	    padding: 16% 16%;
+    font-size: 16px;
+    font-family: serif;
+        letter-spacing: 2px;
+}
+.card{
+	background: transparent;
+	border: none;
+}
+.card-img-top img{
+	width: 100%;
+}
+.card-body h1{
+	font-size: 1.5rem;
+}
+.card-body p{
+	font-size: 15px;
+	font-weight: lighter;
+}
+.card-body a{
+	color: black;
+	letter-spacing: 6px;
+    font-family: serif;
+}
+
+/*card 2*/
+
+.card2{
+	margin-top: 8%;
+}
+
+
+/*					end For shopaholics*/
+
+					/*section markat*/
+.contener-logo{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.logo{
+	
+	    opacity: 50%;
+}
+.logo:hover{
+	opacity: 100%;
+}
+
+					/*end section markat*/
+
+
+
+
+								/*footer*/
+footer{
+	background:#141414;
+	color: white;
+	height: 350px;
+	    padding: 5%;
+}
+a{
+	color: white;
+	
+}
+span:hover{
+	border-bottom: 2px solid white;
+	
+}
+.form-control{
+	background: transparent;
+	color: white;
+}
+
+.Qode{
+	background: black;
+	text-align: center;
+	color: gray;
+	height: 80px;
+}
+.Qode h6{
+	font-size: 22px;
+	padding: 2%;
+}
+								/*end footer*/
+
+
+
+
+
+
+/*media quary*/
+@media(min-width:300px) and (max-width:800px){
+	footer{
+		height: 650px;
+		
+	}
+
+	.card-img-top img{
+	width: 180%;
+	}
+
+
+
+	
+}
+
+
+@media(max-width:676px){
+	.logo{
+	text-align: center;
+}
+
+
+}
+
+@media(max-width:787px){
+.model{
+width: 90%;
+ 
+}
+
+}
+
+
+@media(min-width:500px) and (max-width:1200px){
+	
+.essam{
+	display: none;
+}
+.essam2{
+	display: block;
+
+}
+.essam2 img{
+	width: 60%;
+}
+	
+	.iconat{
+		display: none;
+	}
+
+	.iconbar{
+		display: none;
+	}
+
+	.nav-link{
+letter-spacing: 3px;
+    color: black;
+
+}
+.nav-link:hover{
+	border-bottom: 2px solid black;
+	transition: 1s all;
+}
+	
+
+}
+
+
+
+
+
+
+
+
